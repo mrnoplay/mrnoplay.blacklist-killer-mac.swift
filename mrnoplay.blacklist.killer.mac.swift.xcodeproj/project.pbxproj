@@ -23,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9633F53924C85AE600A47999 /* mrnoplay.blacklist.killer.mac.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mrnoplay.blacklist.killer.mac.swift; sourceTree = BUILT_PRODUCTS_DIR; };
+		9633F53924C85AE600A47999 /* mrnoplay-blacklist-killer-mac-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mrnoplay-blacklist-killer-mac-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9633F53C24C85AE600A47999 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		964876DB24CBF6A8006A4718 /* com.scrisstudio.mrnoplay-blacklist-killer-mac-swift.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "com.scrisstudio.mrnoplay-blacklist-killer-mac-swift.plist"; path = "../../../../.Trash/com.scrisstudio.mrnoplay-blacklist-killer-mac-swift.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +50,7 @@
 		9633F53A24C85AE600A47999 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9633F53924C85AE600A47999 /* mrnoplay.blacklist.killer.mac.swift */,
+				9633F53924C85AE600A47999 /* mrnoplay-blacklist-killer-mac-swift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				9633F53C24C85AE600A47999 /* main.swift */,
+				964876DB24CBF6A8006A4718 /* com.scrisstudio.mrnoplay-blacklist-killer-mac-swift.plist */,
 			);
 			path = mrnoplay.blacklist.killer.mac.swift;
 			sourceTree = "<group>";
@@ -79,7 +81,7 @@
 			);
 			name = mrnoplay.blacklist.killer.mac.swift;
 			productName = mrnoplay.blacklist.killer.mac.swift;
-			productReference = 9633F53924C85AE600A47999 /* mrnoplay.blacklist.killer.mac.swift */;
+			productReference = 9633F53924C85AE600A47999 /* mrnoplay-blacklist-killer-mac-swift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -245,8 +247,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../.Trash/com.scrisstudio.mrnoplay-blacklist-killer-mac-swift.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrisstudio.blacklist-killer-mac-swift";
+				PRODUCT_NAME = "mrnoplay-blacklist-killer-mac-swift";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -255,8 +259,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../.Trash/com.scrisstudio.mrnoplay-blacklist-killer-mac-swift.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrisstudio.blacklist-killer-mac-swift";
+				PRODUCT_NAME = "mrnoplay-blacklist-killer-mac-swift";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -63,19 +63,19 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
+            argument = "cn"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "black"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "com.sportingday.karlo"
+            argument = "com.tnt.Adobe-Zii-2019"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "com.supernala.inno"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "com.ifx.command"
+            argument = "com.igorstumberger.dockey"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
